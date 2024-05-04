@@ -13,6 +13,15 @@
 
 > INexus is [MaYouBang AI](https://ai.mayoubang.cn/?_s=git) platform, in order to unify the scheduling of the package sdk, the release of the sdk is a large number of verified and tested, can be commercially available!
 
+## Install
+`npm`
+```shell
+npm install inexus
+```
+`yarn`
+```shell
+yarn add inexus
+```
 
 ## I. Quick Call
 

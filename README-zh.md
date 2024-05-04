@@ -11,6 +11,16 @@
 
 > INexus 是 [码友邦AI](https://ai.mayoubang.cn/?_s=git) 平台，为了统一调度所封装的sdk，所放出的sdk是经过大量验证测试过的，可进行商用
 
+## 安装
+`npm`
+```shell
+npm install inexus
+```
+`yarn`
+```shell
+yarn add inexus
+```
+
 ## 一、快速调用
 
 ```ts
