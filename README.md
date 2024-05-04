@@ -465,4 +465,4 @@ Suggest you read the tests/chat.ts source code for call testing
 
 You are also welcome to use the MaYouBang AI platform for experience
 
-Link: [https://ai.mayoubang.cn/?_s=git](https://ai.mayoubang.cn/)
+Link: [https://ai.mayoubang.cn/](https://ai.mayoubang.cn/?_s=git)

@@ -463,4 +463,4 @@ const iNexus = ModelService.getInstance()
 
 也欢迎大家使用码友邦AI平台进行体验
 
-地址：[https://ai.mayoubang.cn/?_s=git](https://ai.mayoubang.cn/)
+地址：[https://ai.mayoubang.cn/](https://ai.mayoubang.cn/?_s=git)
