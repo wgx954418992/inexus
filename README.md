@@ -9,7 +9,7 @@
 * support for graphical messages
 * Document dialogues can be implemented through extensions
 
-> INexus is [MaYouBang AI](https://ai.mayoubang.cn/_s=git) platform, in order to unify the scheduling of the package sdk, the release of the sdk is a large number of verified and tested, can be commercially available!
+> INexus is [MaYouBang AI](https://ai.mayoubang.cn/?_s=git) platform, in order to unify the scheduling of the package sdk, the release of the sdk is a large number of verified and tested, can be commercially available!
 
 
 ## I. Quick Call
@@ -464,4 +464,4 @@ Suggest you read the tests/chat.ts source code for call testing
 
 You are also welcome to use the MaYouBang AI platform for experience
 
-Link: [https://ai.mayoubang.cn/_s=git](https://ai.mayoubang.cn/)
+Link: [https://ai.mayoubang.cn/?_s=git](https://ai.mayoubang.cn/)
