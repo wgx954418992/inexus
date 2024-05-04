@@ -1,3 +1,5 @@
+[简体中文](./README-zh.md)
+
 # INexus
 
 #### integrates GPT and Gemini dialogue interfaces into one sdk, calling gpt or gemini through a unified interface.

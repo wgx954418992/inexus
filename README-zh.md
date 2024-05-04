@@ -9,7 +9,7 @@
 * 支持图文消息
 * 可通过扩展实现文档对话
 
-> INexus 是 [码友邦AI](https://ai.mayoubang.cn/_s=git) 平台，为了统一调度所封装的sdk，所放出的sdk是经过大量验证测试过的，可进行商用
+> INexus 是 [码友邦AI](https://ai.mayoubang.cn/?_s=git) 平台，为了统一调度所封装的sdk，所放出的sdk是经过大量验证测试过的，可进行商用
 
 ## 一、快速调用
 
@@ -463,4 +463,4 @@ const iNexus = ModelService.getInstance()
 
 也欢迎大家使用码友邦AI平台进行体验
 
-地址：[https://ai.mayoubang.cn/_s=git](https://ai.mayoubang.cn/)
+地址：[https://ai.mayoubang.cn/?_s=git](https://ai.mayoubang.cn/)
