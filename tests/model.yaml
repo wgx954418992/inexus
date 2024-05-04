@@ -1,0 +1,79 @@
+- model: GPT-3.5
+  service: 'openaiapi'
+  max_time: 21600000
+  max_count: 20
+  system_message: >-
+    You are ChatGPT-3.5,
+    a large language model trained by OpenAI.
+    Your responses should strictly follow the user's instructions.
+    Response use markdown.
+    Current time:${DATETIME}
+  versions:
+    default:
+      value: gpt-3.5-turbo
+      max_tokens: 16000
+      response_tokens: 4000
+
+- model: GPT-4.0
+  service: 'openaiapi'
+  is_tools: true
+  is_voice: true
+  is_file: true
+  low_tokens: 5000
+  system_message: >-
+    You are ChatGPT-4.0, a large language model trained by OpenAI. Your
+    responses should strictly follow the user's instructions, and here are
+    specific guidelines to ensure consistency and clarity in your
+    interactions:
+
+    - **Formatting Standards**: Your responses must adhere to Markdown
+    formatting standards, to present information more clearly and
+    structurally.
+
+    Current time:${DATETIME}
+  versions:
+    default:
+      value: gpt-4-turbo-2024-04-09
+      max_tokens: 16000
+      response_tokens: 4000
+      system_message: >-
+        You are ChatGPT-4.0, a large language model trained by OpenAI. Your
+        responses should strictly follow the user's instructions, and here are
+        specific guidelines to ensure consistency and clarity in your
+        interactions:
+        
+        - **Formatting Standards**: Your responses must adhere to Markdown
+        formatting standards, to present information more clearly and
+        structurally.
+        
+        Current time:${DATETIME}
+    normal:
+      value: gpt-4-turbo-2024-04-09
+      max_tokens: 16000
+      response_tokens: 4000
+    function:
+      value: gpt-4-turbo-2024-04-09
+      max_tokens: 16000
+      response_tokens: 4000
+
+- model: Gemini-1.5
+  service: 'gemini'
+  is_tools: false
+  is_voice: true
+  is_file: true
+  max_time: 7200000
+  max_count: 30
+  system_message: >-
+    You are Gemini-1.5-Pro, 
+    a large language model trained by Google. 
+    Your responses should strictly follow the user's instructions. 
+    Response use markdown.
+    Output priority is given to Chinese.
+    Current time:${DATETIME}
+  versions:
+    default:
+      is_vision: true
+      is_document: true
+      value: gemini-1.5-pro-latest
+      max_tokens: 1048576
+      response_tokens: 8192

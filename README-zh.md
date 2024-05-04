@@ -1,18 +1,17 @@
 # INexus
 
-#### integrates GPT and Gemini dialogue interfaces into one sdk, calling gpt or gemini through a unified interface.
+#### 集成了GPT、Gemini 对话接口为一体的sdk，通过统一接口进行调用gpt或者gemini
 
-* Support plug-in call
-* Support message caching
-* support for error reloading
-* support for message cross-platform
-* support for graphical messages
-* Document dialogues can be implemented through extensions
+* 支持插件调用
+* 支持消息缓存
+* 支持错误重载
+* 支持消息跨平台
+* 支持图文消息
+* 可通过扩展实现文档对话
 
-> INexus is [MaYouBang AI](https://ai.mayoubang.cn/_s=git) platform, in order to unify the scheduling of the package sdk, the release of the sdk is a large number of verified and tested, can be commercially available!
+> INexus 是 [码友邦AI](https://ai.mayoubang.cn/_s=git) 平台，为了统一调度所封装的sdk，所放出的sdk是经过大量验证测试过的，可进行商用
 
-
-## I. Quick Call
+## 一、快速调用
 
 ```ts
 import {INexusOpenaiApi} from "./api";
@@ -69,7 +68,7 @@ iNexus.sendMessage([{text: '您好'}], {
     })
 ```
 
-## II. Secondary encapsulation calls
+## 二、二次封装调用
 
 > model.yaml
 
@@ -155,7 +154,7 @@ iNexus.sendMessage([{text: '您好'}], {
       response_tokens: 8192
 ```
 
-The above file, which configures the basic parameters of the model
+上述文件，配置了模型基本参数
 
 > model.ts
 
@@ -436,7 +435,7 @@ export class ModelService {
 }
 ```
 
-Through the ModelService we have encapsulated, you can pass in the model name to get the basic parameters of the model, and the corresponding INexus service.
+通过ModelService 我们进行了封装，可以通过传入模型名称，来获取到模型基本参数，以及对应的INexus服务
 
 ```ts
 const {model, version} = ModelService
@@ -457,11 +456,11 @@ const iNexus = ModelService.getInstance()
         }
     })
 
-/// ....Implement the dialogue logic in the same way as the first step of the call
+/// ....实现对话逻辑，跟第一步调用方式一样
 ```
 
-Suggest you read the tests/chat.ts source code for call testing
+建议大家阅读tests/chat.ts源码，进行调用测试
 
-You are also welcome to use the MaYouBang AI platform for experience
+也欢迎大家使用码友邦AI平台进行体验
 
-Link: [https://ai.mayoubang.cn/_s=git](https://ai.mayoubang.cn/)
+地址：[https://ai.mayoubang.cn/_s=git](https://ai.mayoubang.cn/)
