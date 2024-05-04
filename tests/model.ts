@@ -1,11 +1,10 @@
 import fs from "fs";
-import {dirname, join} from "path";
+import {join} from "path";
 import {load} from "js-yaml";
 import {INexusConfig} from "../inexus/types";
 import {INexus} from "../inexus";
 import {INexusOpenaiApi} from "../inexus/openai/api";
 import {INexusGeminiApi} from "../inexus/gemini/api";
-import {fileURLToPath} from "url";
 
 function getYMDHMSDateString() {
     const today = new Date();
@@ -59,16 +58,6 @@ export enum ModelVersionType {
     normal = 'normal',
     function = 'function'
 }
-
-/**
- * __filename
- */
-const __filename = fileURLToPath(import.meta.url)
-
-/**
- * __dirname
- */
-const __dirname = dirname(__filename)
 
 export class ModelService {
 

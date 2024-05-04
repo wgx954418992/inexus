@@ -1,16 +1,5 @@
-import path, {dirname} from "path";
+import path from "path";
 import fs from "fs";
-import {fileURLToPath} from "url";
-
-/**
- * __filename
- */
-const __filename = fileURLToPath(import.meta.url)
-
-/**
- * __dirname
- */
-const __dirname = dirname(__filename)
 
 export const getCacheFilepath = (key: string) => {
     if (!key) throw new Error('key无效!')

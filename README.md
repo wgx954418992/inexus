@@ -224,16 +224,6 @@ export enum ModelVersionType {
     function = 'function'
 }
 
-/**
- * __filename
- */
-const __filename = fileURLToPath(import.meta.url)
-
-/**
- * __dirname
- */
-const __dirname = dirname(__filename)
-
 export class ModelService {
 
     /**
