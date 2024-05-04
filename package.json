@@ -1,6 +1,6 @@
 {
   "name": "inexus",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Integration of GPT, Gemini dialogue api, an interface to achieve cross-platform interface calls, perfect support for tools",
   "main": "dist/index.js",
   "type": "commonjs",
